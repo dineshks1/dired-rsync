@@ -1,6 +1,9 @@
 language: emacs-lisp
 os: linux
 dist: xenial
+arch:
+ - amd64
+ - ppc64le
 addons:
   apt:
     update: true
